@@ -1,0 +1,136 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 100;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: linear-gradient(rgba(36, 36, 151, 0.5), rgba(27, 27, 106, 0.4)),
+              url("img/image.png") center/cover no-repeat;
+}
+
+/* Typography */
+label {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Form Elements */
+input, textarea, button, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+}
+
+input::placeholder,
+textarea::placeholder,
+select option {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+textarea, select {
+  resize: none;
+  font-size: 1rem;
+}
+
+select {
+  color: grey;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 1.8rem auto;
+}
+
+/* Header Section */
+.section-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1.2rem 2.4rem;
+}
+
+.section-header h1 {
+  color: #fff;
+  font-size: 2.6rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.section-header p {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+
+/* Form Section */
+.section-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #2d2d55ee;
+  padding: 2.4rem;
+  border-radius: 0.6rem;
+}
+
+.section-form label {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.radio label,
+.checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+  width: 20px;
+}
+
+.feedback {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.feedback label {
+  margin-bottom: 0.6rem;
+}
+
+button {
+  color: #fff;
+  background-color: rgb(88, 202, 103);
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

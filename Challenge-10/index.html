@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Pokédex</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="pokedex">
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          required
+          placeholder="Pokémon Name or ID"
+        />
+        <button id="search-button">Catch 'Em!</button>
+      </div>
+      <div class="display">
+        <div id="sprite-container"></div>
+        <div id="pokemon-name"></div>
+        <div class="pokemon-info">
+          <div class="info-row">
+            <span class="info-label">ID:</span>
+            <span class="info-value" id="pokemon-id"></span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Weight:</span>
+            <span class="info-value" id="weight"></span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Height:</span>
+            <span class="info-value" id="height"></span>
+          </div>
+        </div>
+        <div class="stats-section">
+          <h3 class="stats-title">Base Stats</h3>
+          <div class="stats-grid">
+            <div class="stat-row">
+              <span class="stat-label">HP</span>
+              <span class="stat-value" id="hp"></span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Attack</span>
+              <span class="stat-value" id="attack"></span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Defense</span>
+              <span class="stat-value" id="defense"></span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Sp. Atk</span>
+              <span class="stat-value" id="special-attack"></span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Sp. Def</span>
+              <span class="stat-value" id="special-defense"></span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Speed</span>
+              <span class="stat-value" id="speed"></span>
+            </div>
+          </div>
+        </div>
+        <div id="types"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

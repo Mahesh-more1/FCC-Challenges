@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="section-header">
+        <header>
+          <h1 id="title">Survey Form</h1>
+          <p id="description">
+            Thank you for taking the time to complete this survey!
+          </p>
+        </header>
+      </section>
+      <section class="section-form">
+        <form id="survey-form">
+          <label for="name" id="name-label">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your name"
+          />
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+          />
+
+          <label for="number" id="number-label">Age</label>
+          <input
+            type="number"
+            id="number"
+            name="age"
+            required
+            min="10"
+            max="100"
+            placeholder="Enter your age"
+          />
+          <div>
+            <label for="dropdown">How do you use QuickCart?</label>
+            <select name="role" id="dropdown">
+              <option value="">Choose Your Current Status</option>
+              <option value="regular shopper">Regular Shopper</option>
+              <option value="seller">Seller</option>
+              <option value="first-time user">First-time User</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <label>Would you recommend QuickCart to others?</label>
+          <div class="radio">
+            <label for="yes">
+              <input type="radio" name="recommend" value="yes" id="yes" />Yes
+            </label>
+
+            <label for="no">
+              <input type="radio" name="recommend" value="no" id="no" />No
+            </label>
+          </div>
+          <div>
+            <label for="feature"
+              >What is your favorite feature of QuickCart?</label
+            >
+            <select name="feature" id="features">
+              <option value="product variety">Product Variety</option>
+              <option value="easy checkout">Easy Checkout</option>
+              <option value="fast delivery">Fast Delivery</option>
+              <option value="customer support">Customer Support</option>
+            </select>
+          </div>
+          <div class="checkbox">
+            <label for="discounts">
+              <input
+                type="checkbox"
+                name="improve"
+                value="discounts"
+                id="discounts"
+              />
+              More Discounts & Offers
+            </label>
+            <label for="delivery">
+              <input
+                type="checkbox"
+                name="improve"
+                value="delivery"
+                id="delivery"
+              />
+              Faster Delivery
+            </label>
+            <label for="support">
+              <input
+                type="checkbox"
+                name="improve"
+                value="support"
+                id="support"
+              />
+              Better Customer Support
+            </label>
+            <label for="payment">
+              <input
+                type="checkbox"
+                name="improve"
+                value="payment"
+                id="payment"
+              />
+              More Payment Options
+            </label>
+            <label for="mobile-app">
+              <input
+                type="checkbox"
+                name="improve"
+                value="mobile-app"
+                id="mobile-app"
+              />
+              Mobile App Experience
+            </label>
+          </div>
+          <div class="feedback">
+            <label for="suggestion">Any other suggestions?</label>
+            <textarea
+              name="suggestion"
+              id="suggestion"
+              placeholder="Enter your suggestions"
+            ></textarea>
+          </div>
+
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

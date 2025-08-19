@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Python Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+        <a class="nav-link" href="#Python_vs_Other_Languages">Python vs Other Languages</a>
+        <a class="nav-link" href="#Hello_World">Hello World</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Data_Types">Data Types</a>
+        <a class="nav-link" href="#If...Else_Statements">If...Else Statements</a>
+        <a class="nav-link" href="#While_Loops">While Loops</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+        <a class="nav-link" href="#Lists">Lists</a>
+        <a class="nav-link" href="#Dictionaries">Dictionaries</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace.</p>
+            <p>Python features include:</p>
+            <ul>
+                <li>Simple, easy to learn syntax</li>
+                <li>Interpreted language (no compilation needed)</li>
+                <li>Dynamically typed</li>
+                <li>Supports multiple programming paradigms (procedural, object-oriented, functional)</li>
+                <li>Comprehensive standard library</li>
+            </ul>
+            <p>Python is used for:</p>
+            <ul>
+                <li>Web development (Django, Flask)</li>
+                <li>Data analysis and machine learning (Pandas, NumPy, TensorFlow)</li>
+                <li>Automation and scripting</li>
+                <li>Scientific computing</li>
+                <li>Desktop applications</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="What_you_should_already_know">
+            <header>What you should already know</header>
+            <p>This guide assumes you have the following basic background:</p>
+            <ul>
+                <li>A general understanding of programming concepts</li>
+                <li>Basic computer operation skills</li>
+                <li>Some experience with any programming language is helpful but not required</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Python_vs_Other_Languages">
+            <header>Python vs Other Languages</header>
+            <p>Python differs from languages like Java and C++ in several key ways:</p>
+            <ul>
+                <li>Python is dynamically typed (no variable type declarations)</li>
+                <li>Uses indentation for block structure rather than curly braces</li>
+                <li>Generally more concise than Java or C++</li>
+                <li>Interpreted rather than compiled</li>
+                <li>Extensive standard library included</li>
+            </ul>
+            <p>Compared to JavaScript:</p>
+            <ul>
+                <li>Python is strongly typed (no implicit type conversion)</li>
+                <li>Python is primarily server-side while JavaScript runs in browsers</li>
+                <li>Python has more consistent behavior across implementations</li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <p>To get started with Python, here's the simplest program:</p>
+            <code>print("Hello, World!")</code>
+            <p>To run this program:</p>
+            <ol>
+                <li>Save it in a file with .py extension (e.g., hello.py)</li>
+                <li>Run it from command line: <code>python hello.py</code></li>
+            </ol>
+            <p>Or you can use the Python interactive interpreter by typing <code>python</code> in your terminal.</p>
+        </section>
+
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>Variables in Python are created when you first assign a value to them:</p>
+            <code>x = 5
+y = "Hello"
+z = 3.14</code>
+            <p>Variable names:</p>
+            <ul>
+                <li>Can contain letters, numbers and underscores</li>
+                <li>Cannot start with a number</li>
+                <li>Are case-sensitive</li>
+                <li>Should be descriptive (e.g., <code>user_name</code> rather than <code>un</code>)</li>
+            </ul>
+            <p>Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.</p>
+        </section>
+
+        <section class="main-section" id="Data_Types">
+            <header>Data Types</header>
+            <p>Python has the following built-in data types:</p>
+            <ul>
+                <li>Text: <code>str</code></li>
+                <li>Numeric: <code>int</code>, <code>float</code>, <code>complex</code></li>
+                <li>Sequence: <code>list</code>, <code>tuple</code>, <code>range</code></li>
+                <li>Mapping: <code>dict</code></li>
+                <li>Set: <code>set</code>, <code>frozenset</code></li>
+                <li>Boolean: <code>bool</code></li>
+                <li>Binary: <code>bytes</code>, <code>bytearray</code>, <code>memoryview</code></li>
+            </ul>
+            <p>You can check the type of any variable with the <code>type()</code> function:</p>
+            <code>x = 5
+print(type(x))  # Output: &lt;class 'int'&gt;</code>
+        </section>
+
+        <section class="main-section" id="If...Else_Statements">
+            <header>If...Else Statements</header>
+            <p>Python uses indentation to define blocks of code:</p>
+            <code>a = 200
+b = 33
+
+if b > a:
+    print("b is greater than a")
+elif a == b:
+    print("a and b are equal")
+else:
+    print("a is greater than b")</code>
+            <p>Python supports the usual logical conditions:</p>
+            <ul>
+                <li>Equals: <code>a == b</code></li>
+                <li>Not equals: <code>a != b</code></li>
+                <li>Less than: <code>a < b</code></li>
+                <li>Greater than: <code>a > b</code></li>
+                <li>Less than or equal to: <code>a <= b</code></li>
+                <li>Greater than or equal to: <code>a >= b</code></li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="While_Loops">
+            <header>While Loops</header>
+            <p>With the while loop we can execute a set of statements as long as a condition is true.</p>
+            <code>i = 1
+while i < 6:
+    print(i)
+    i += 1</code>
+            <p>Loop control statements:</p>
+            <ul>
+                <li><code>break</code> - stops the loop</li>
+                <li><code>continue</code> - skips to next iteration</li>
+                <li><code>else</code> - runs when loop finishes normally</li>
+            </ul>
+            <code>i = 0
+while i < 6:
+    i += 1
+    if i == 3:
+        continue
+    print(i)
+else:
+    print("i is no longer less than 6")</code>
+        </section>
+
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function.</p>
+            <code>def my_function(name):
+    print("Hello " + name)
+
+my_function("Alice")</code>
+            <p>Functions can return values:</p>
+            <code>def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(5, 3)
+print(result)  # Output: 8</code>
+            <p>Default parameter values:</p>
+            <code>def greet(name="World"):
+    print(f"Hello, {name}!")
+
+greet()  # Output: Hello, World!
+greet("Alice")  # Output: Hello, Alice!</code>
+        </section>
+
+        <section class="main-section" id="Lists">
+            <header>Lists</header>
+            <p>Lists are used to store multiple items in a single variable:</p>
+            <code>fruits = ["apple", "banana", "cherry"]
+print(fruits)</code>
+            <p>List operations:</p>
+            <ul>
+                <li>Access items: <code>fruits[0]</code> (first item)</li>
+                <li>Negative indexing: <code>fruits[-1]</code> (last item)</li>
+                <li>Range of indexes: <code>fruits[1:3]</code></li>
+                <li>Change value: <code>fruits[1] = "blueberry"</code></li>
+                <li>Add items: <code>fruits.append("orange")</code></li>
+                <li>Remove items: <code>fruits.remove("banana")</code></li>
+            </ul>
+            <p>List comprehension:</p>
+            <code>numbers = [1, 2, 3, 4]
+squares = [n**2 for n in numbers]
+print(squares)  # Output: [1, 4, 9, 16]</code>
+        </section>
+
+        <section class="main-section" id="Dictionaries">
+            <header>Dictionaries</header>
+            <p>Dictionaries store data values in key:value pairs:</p>
+            <code>person = {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York"
+}
+print(person["name"])  # Output: Alice</code>
+            <p>Dictionary operations:</p>
+            <ul>
+                <li>Access items: <code>person["age"]</code></li>
+                <li>Add items: <code>person["email"] = "alice@example.com"</code></li>
+                <li>Remove items: <code>person.pop("age")</code></li>
+                <li>Check if key exists: <code>"name" in person</code></li>
+                <li>Loop through: <code>for key, value in person.items():</code></li>
+            </ul>
+            <p>Dictionary comprehension:</p>
+            <code>numbers = [1, 2, 3, 4]
+squares = {n: n**2 for n in numbers}
+print(squares)  # Output: {1: 1, 2: 4, 3: 9, 4: 16}</code>
+        </section>
+    </main>
+</body>
+</html>
