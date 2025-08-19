@@ -32,15 +32,15 @@ If deployed with GitHub Pages, you can view projects at:
 
 Or directly open:  
 ```
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-01/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-02/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-03/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-04/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-05/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-06/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-07/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-08/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-09/
+https://Mahesh-more1.github.io/FCC-Challenges/Challenge-1/
+https://Mahesh-more1.github.io/FCC-Challenges/Challenge-2/
+https://Mahesh-more1.github.io/FCC-Challenges/Challenge-3/
+https://Mahesh-more1.github.io/FCC-Challenges/Challenge-4/
+https://Mahesh-more1.github.io/FCC-Challenges/Challenge-5/
+https://Mahesh-more1.github.io/FCC-Challenges/Challenge-6/
+https://Mahesh-more1.github.io/FCC-Challenges/Challenge-7/
+https://Mahesh-more1.github.io/FCC-Challenges/Challenge-8/
+https://Mahesh-more1.github.io/FCC-Challenges/Challenge-9/
 https://Mahesh-more1.github.io/FCC-Challenges/Challenge-10/
 ```
 
@@ -58,16 +58,16 @@ https://Mahesh-more1.github.io/FCC-Challenges/Challenge-10/
 
 ```
 FCC-Challenges/
-├── Challenge-01/   # Survey Form
-├── Challenge-02/   # Tribute Page
-├── Challenge-03/   # Technical Documentation Page
-├── Challenge-04/   # Product Landing Page
-├── Challenge-05/   # Portfolio Page
-├── Challenge-06/   # Palindrome Checker
-├── Challenge-07/   # Roman Numeral Converter
-├── Challenge-08/   # Telephone Number Validator
-├── Challenge-09/   # Cash Register
-├── Challenge-10/   # RPG Creature Search App
+├── Challenge-1/   # Survey Form
+├── Challenge-2/   # Tribute Page
+├── Challenge-3/   # Technical Documentation Page
+├── Challenge-4/   # Product Landing Page
+├── Challenge-5/   # Portfolio Page
+├── Challenge-6/   # Palindrome Checker
+├── Challenge-7/   # Roman Numeral Converter
+├── Challenge-8/   # Telephone Number Validator
+├── Challenge-9/   # Cash Register
+├── Challenge-10/  # RPG Creature Search App
 └── README.md
 ```
 
