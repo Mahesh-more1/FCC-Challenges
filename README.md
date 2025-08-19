@@ -24,25 +24,16 @@ Built as part of FreeCodeCamp certification programs.
 
 ---
 
-## 🚀 Live Demos
-
-If deployed with GitHub Pages, you can view projects at:  
-
-🔗 **Main Page**: [FCC-Challenges](https://Mahesh-more1.github.io/FCC-Challenges/)  
-
-Or directly open:  
-```
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-1/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-2/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-3/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-4/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-5/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-6/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-7/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-8/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-9/
-https://Mahesh-more1.github.io/FCC-Challenges/Challenge-10/
-```
+- [Challenge 1 - Survey Form](https://mahesh-more1.github.io/FCC-Challenges/Challenge-1/)  
+- [Challenge 2 - Tribute Page](https://mahesh-more1.github.io/FCC-Challenges/Challenge-2/)  
+- [Challenge 3 - Technical Documentation Page](https://mahesh-more1.github.io/FCC-Challenges/Challenge-3/)  
+- [Challenge 4 - Product Landing Page](https://mahesh-more1.github.io/FCC-Challenges/Challenge-4/)  
+- [Challenge 5 - Personal Portfolio Webpage](https://mahesh-more1.github.io/FCC-Challenges/Challenge-5/)  
+- [Challenge 6 - Palindrome Checker](https://mahesh-more1.github.io/FCC-Challenges/Challenge-6/)  
+- [Challenge 7 - Roman Numeral Converter](https://mahesh-more1.github.io/FCC-Challenges/Challenge-7/)  
+- [Challenge 8 - Telephone Number Validator](https://mahesh-more1.github.io/FCC-Challenges/Challenge-8/)  
+- [Challenge 9 - Cash Register](https://mahesh-more1.github.io/FCC-Challenges/Challenge-9/)  
+- [Challenge 10 - RPG Creature Search App](https://mahesh-more1.github.io/FCC-Challenges/Challenge-10/)  
 
 ---
 
@@ -82,3 +73,4 @@ FCC-Challenges/
 ---
 
 ⭐ *If you like this repo or find it useful, consider giving it a star!* ⭐
+
